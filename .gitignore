@@ -1,0 +1,6 @@
+# Ignore the virtual environment directory
+.venv/
+__pycache__
+# To protect sensitive data in these files (e.g secret keys) so they aren’t accidentally committed to your VCS Git.
+.env
+.flaskenv

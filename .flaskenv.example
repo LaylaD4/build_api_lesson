@@ -1,0 +1,4 @@
+# Your team members can now pull the repository, copy the .env.example and .flaskenv.example 
+# files to create their own .env and .flaskenv files, and fill in the correct values for their local environment.
+FLASK_APP=main:create_app
+FLASK_ENV=development
