@@ -11,6 +11,7 @@ class Config(object):
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     # Access to .env and get the value of SECRET_KEY, the variable name can be any but needs to match.
     JWT_SECRET_KEY =  os.environ.get("SECRET_KEY")
+    JSON_SORT_KEYS=False # Puts columns in right order instead of alphabetically (in schema added ordered = True)
     @property
     def SQLALCHEMY_DATABASE_URI(self):
         # Access to .env and get the value of DATABASE_URL, the variable name can be any but needs to match.
